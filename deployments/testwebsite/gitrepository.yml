@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: example-app-2
+  name: testwebsite
   namespace: default
 spec:
   interval: 1m0s
