@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: testweb-service
+  namespace: default
+spec:
+  selector:
+    app: testwebsite
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 32000
