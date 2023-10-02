@@ -3,6 +3,8 @@ kind: Ingress
 metadata:
   name: testwebsite
   namespace: default
+  annotations:
+    kubernetes.io/ingress.class: traefik
 spec:
   rules:
     # - host: testweb.my.org
