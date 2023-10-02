@@ -11,7 +11,7 @@ spec:
   ports:
     - name: traefik
       port: 9000
-      targetPort: traefik
+      targetPort: 9000
       protocol: TCP
   selector:
     app.kubernetes.io/instance: traefik-kube-system
