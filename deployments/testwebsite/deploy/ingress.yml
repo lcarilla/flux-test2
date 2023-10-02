@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   rules:
-    - host: testweb.my.org
-      http:
+    # - host: testweb.my.org
+    - http:
         paths:
           - path: /
             pathType: Prefix
