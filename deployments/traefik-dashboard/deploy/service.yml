@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: traefik-service
   namespace: kube-system
-  labels:
-    app.kubernetes.io/instance: traefik
 spec:
   type: ClusterIP
   ports:
